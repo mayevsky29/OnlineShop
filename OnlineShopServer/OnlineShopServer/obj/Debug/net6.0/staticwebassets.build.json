@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F0JtksHaQa2nNVjL21GULwNZaGLR7JehKjbG1SRYljk=",
+  "Source": "OnlineShopServer",
+  "BasePath": "_content/OnlineShopServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
