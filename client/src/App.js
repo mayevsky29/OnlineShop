@@ -1,19 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/navbar';
-import { NoMatch } from './components/no-match/no-match';
-import Loading from './components/Loading';
-import Notification from './components/Notification';
-import Login from './components/user/Login';
+import DefaultLayout from './components/containers/DefaultLayout';
+import HomePage from './components/Home';
+import { lazy, Suspense } from 'react';
+
+const Register = lazy(() => import("./components/auth/Register/index"));
+const Login = lazy(() => import("./components/auth/Login/index"));
+
+
 
 function App() {
   return (
     <>
-      <Header />
-      <Loading />
-      <Notification />
-      <Login />
+      <Routes>
+        <Route path="/" element={<DefaultLayout />}>
+          <Route index element={<HomePage />} />
+
+          <Route
+            path="/register"
+            element={
+              <Suspense>
+                <Register />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <Suspense>
+                <Login />
+              </Suspense>
+            }
+          />
+        </Route>
+      </Routes>
     </>
   );
   //return (

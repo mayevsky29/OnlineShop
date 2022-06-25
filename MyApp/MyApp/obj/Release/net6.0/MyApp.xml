@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyApp</name>
+    </assembly>
+    <members>
+        <member name="M:MyApp.Controllers.AccountController.Login(MyApp.Models.LoginViewModel)">
+            <summary>
+            Вхід на сайт
+            </summary>
+            <param name="model">Модель із даними</param>
+            <returns>Повертає токен авторизації</returns>
+        </member>
+        <member name="P:MyApp.Models.LoginViewModel.Email">
+            <summary>
+            The email of the user
+            </summary>
+            <example>petro@gmail.com</example>
+        </member>
+        <member name="P:MyApp.Models.LoginViewModel.Password">
+            <summary>
+            The password of the user
+            </summary>
+            <example>987654321</example>
+        </member>
+        <member name="P:MyApp.Models.TokenResponceViewModel.token">
+            <summary>
+            token
+            </summary>
+            <example>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dnZWRJbkFzIjoiYWRtaW4iLCJpYXQiOjE0MjI3Nzk2Mzh9.gzSraSYS8EXBxLN_oWnFSRgCzcmJmMjLiuyu5CSpyHI</example>
+        </member>
+    </members>
+</doc>

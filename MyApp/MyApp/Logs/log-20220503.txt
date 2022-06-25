@@ -1,0 +1,36 @@
+2022-05-03T18:02:58.5751032+03:00  [INF] Seeding Databases (1466a039)
+2022-05-03T18:03:03.4334798+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
+2022-05-03T18:19:28.8345320+03:00  [INF] Seeding Databases (1466a039)
+2022-05-03T18:19:29.7528961+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
+2022-05-03T18:20:10.5479814+03:00  [INF] Seeding Databases (1466a039)
+2022-05-03T18:20:11.4625633+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
+2022-05-03T18:20:47.5208927+03:00  [INF] Seeding Databases (1466a039)
+2022-05-03T18:20:48.4466622+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
+2022-05-03T18:27:14.5883644+03:00  [INF] Seeding Databases (1466a039)
+2022-05-03T18:27:15.5270210+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
+2022-05-03T18:32:46.0961715+03:00  [INF] Seeding Databases (1466a039)
+2022-05-03T18:32:47.0177207+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
+2022-05-03T18:32:47.9243207+03:00  [INF] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');" (0723d8ff)
+2022-05-03T18:32:48.0076516+03:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');" (0723d8ff)
+2022-05-03T18:32:48.0262793+03:00  [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2022-05-03T18:32:48.0937906+03:00  [INF] Applying migration '"20220503152902_Add new tbls"'. (0e2ac64d)
+2022-05-03T18:32:48.1398802+03:00  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20220503152902_Add new tbls', '6.0.3');" (0723d8ff)
+2022-05-03T18:32:48.5317466+03:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)" (0723d8ff)
+2022-05-03T18:32:48.5431226+03:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetUsers\" AS a)" (0723d8ff)
+2022-05-03T18:32:49.3007270+03:00  [INF] Now listening on: "http://127.0.0.1:5074" (d826f4b8)
+2022-05-03T18:32:49.3009178+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-05-03T18:32:49.3009745+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-05-03T18:32:49.3010047+03:00  [INF] Content root path: "E:\Shag\AndroidCourse\myAppAPI\MyApp\MyApp\" (b5d60022)

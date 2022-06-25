@@ -1,0 +1,2 @@
+2022-05-05T08:23:22.7239494+03:00  [INF] Seeding Databases (1466a039)
+2022-05-05T08:23:27.2472095+03:00  [INF] Entity Framework Core "6.0.3" initialized '"AppEFContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f"' with options: "None" (d2805559)
