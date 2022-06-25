@@ -1,6 +1,6 @@
 const HomePage = () => {
     return (
-        <h1>Список продуктів</h1>
+        <h1>Hello</h1>
     );
 }
 export default HomePage; 
